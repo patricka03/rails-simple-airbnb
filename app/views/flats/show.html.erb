@@ -1,0 +1,63 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+      <div class="d-flex align-items-start flex-column mb-3 fixed-width-card">
+        <div class="card bg-light text-black">
+          <div class="card-body d-flex">
+            <div class="p-2 text-start fixed-width-card">
+              <h1><%=@flat.name%></h1>
+              <p><%=@flat.address%></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex align-items-start flex-column mb-3">
+        <div class="card bg-light text-black">
+          <div class="card-body d-flex">
+            <div class="p-2 text-start fixed-width-card">
+              <h1>A bit more about the flat</h1>
+              <p><%=@flat.description%></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="d-flex align-items-start flex-column mb-3">
+        <div class="card bg-light text-black">
+          <div class="card-body mini-width-card">
+            <h5>Book this place!</h5>
+            <form>
+              <div class="form-group">
+                <label for="fromData">From:</label>
+                <input type="data" class="form-control" id="toDate" placeholder="29-04-2025">
+              </div>
+              <div>
+                <label for="formData">To:</label>
+                <input type="data" class="form-control" id="toDate" placeholder="06-05-2025">
+              </div>
+              <button type="submit" class="btn btn-success w-100">Book</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex align-items-start flex-column mb-3 mini-width-card">
+        <div class="card mini-width-card .mini-height-card bg-light text-black">
+          <h5>
+            Details
+          </h5>
+        </div>
+      </div>
+
+      <div class="d-flex align-items-start flex-column mb-3 mini-width-card">
+        <div class="card mini-width-card .mini-height-card bg-light text-black">
+          <p>Share</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
