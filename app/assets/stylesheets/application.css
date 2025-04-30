@@ -9,3 +9,11 @@
 .mini-height-card {
   height: 100px;
 }
+
+.show-height-card {
+  height: 190px;
+}
+
+.card-text {
+  padding: 10px;
+}
